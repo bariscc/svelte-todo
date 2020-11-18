@@ -62,9 +62,22 @@
     line-height: 20px;
     text-decoration: none;
     cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    margin-top: -1px;
   }
   .clear-completed:hover {
     text-decoration: underline;
+  }
+
+  @media (max-width: 430px) {
+    .footer {
+      height: 50px;
+    }
+    .filters {
+      bottom: 10px;
+    }
   }
 </style>
 
